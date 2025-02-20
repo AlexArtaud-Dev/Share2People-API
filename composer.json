@@ -1,17 +1,24 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "alexartaud-dev/share2people",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Web application to share multiple content types",
     "keywords": [
         "laravel",
-        "framework"
+        "framework",
+        "web",
+        "api",
+        "markdown",
+        "images",
+        "code"
     ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "darkaonline/l5-swagger": "^8.6",
         "laravel/framework": "^11.31",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "tymon/jwt-auth": "^2.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
